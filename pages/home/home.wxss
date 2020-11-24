@@ -1,0 +1,85 @@
+#home{
+  width: 100%;
+  height: 1000rpx;
+}
+#home .loding image{
+  -webkit-animation:changeright 3s linear infinite;
+  width: 30rpx;
+  height: 30rpx;
+}
+#home .loding{
+  width: 100%;
+  text-align: center;
+  color: #ccc;
+}
+@-webkit-keyframes changeright{       
+  0%{-webkit-transform:rotate(0deg);}
+  50%{-webkit-transform:rotate(180deg);}
+  100%{-webkit-transform:rotate(360deg);}
+}
+#home .swiper image{
+  width: 100%;
+  height: 100%;
+}
+#home .swiper{
+  height: 400rpx;
+}
+#home .info-box{
+  margin-top: 20rpx;
+  position: relative;
+}
+#home .info-box image{
+  width: 100%;
+  height: 820rpx;
+  padding: 0 20rpx;
+  box-sizing:border-box;
+}
+
+#home .info-box .intop{
+  position: absolute;
+  top: 80rpx;
+  left: 0px;
+  right: 0px;
+  z-index: 10;
+  color: #fff;
+  padding: 5rpx 35rpx;
+  box-sizing:border-box;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30rpx;
+}
+#home .info-box .intop .font{
+  display: flex;
+  flex-direction: column;
+}
+#home .info-box .intop .font .title{
+  font-size: 50rpx;
+  font-family:FangSong;
+  font-weight: 700;
+  margin-top: 10rpx;
+}
+#home .info-box .intop .font .beat{
+  font-size: 30rpx;
+  margin-top: 20rpx;
+}
+#home .goods-list{
+  width: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+}
+#home .goods-list .title{
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 1px #ccc dotted;
+  box-sizing:border-box;
+  padding: 20rpx 0;
+  font-size: 45rpx;
+}
+#home .goods-list .content{
+  width: 100%;
+  margin-top: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

@@ -1,0 +1,57 @@
+.weekup{
+  width: 100%;
+  height: 440rpx;
+  background-color: #fff;
+  padding: 10rpx;
+  box-sizing:border-box;
+  margin-top: 20rpx;
+}
+.weekup .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.weekup .content .title{
+  font-weight: 700;
+  font-size: 45rpx;
+}
+.weekup .content .line{
+  width: 100%;
+  padding: 10rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted #ccc;
+  font-size: 25rpx;
+}
+.weekup .content .goods-list{
+  width: 100%;
+  margin-top: 25rpx;
+}
+.weekup .content .scroll{
+  display: flex;
+}
+.weekup .content .goods-list .scroll .goodsItem{
+  width: 200rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20rpx;
+}
+.weekup .content .goods-list .scroll .goodsItem .price{
+  color: #327442;
+  padding-bottom: 10rpx;
+  text-align: center;
+}
+.weekup .content .goods-list .goodsItem text{
+  width: 100%;
+  font-size: 24rpx;
+  margin-top: 5rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.weekup .content .goods-list .goodsItem image{
+  width: 200rpx;
+  height: 220rpx;
+}

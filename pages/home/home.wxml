@@ -1,0 +1,34 @@
+<view id="home">
+	<view class="swiper">
+		<swiper autoplay="true" circular="true" indicator-dots="true" indicator-color="#bfbfbf" indicator-active-color="#327442" class="swiper">
+			<swiper-item wx:for="{{bannerList}}" wx:key="index">
+				<image src="{{item.image}}"></image>
+			</swiper-item>
+		</swiper>
+	</view>
+	<homeType />
+	<weekUp weekData="{{weekUp}}"/>
+	<view class="info-box">
+		<image src="{{shell[0].show.img}}" lazy-load="true"></image>
+		<view class="intop">
+			<view class="font">
+				<text class="title">玛卡巴卡。</text>
+				<text class="beat">适合你的 才是最好的</text>
+			</view>
+		</view>
+	</view>
+	<view class="goods-list">
+		<view class="title">
+			『 为 你 推 荐 』
+		</view>
+		<view class="content">
+			<block wx:for="{{goodsList}}" wx:key="index">
+				<homeGoodsItem goodsitem = "{{item}}"/>
+			</block>
+		</view>
+	</view>
+	<view class="loding">
+		<image src="../../images/home/loding.svg" alt=""/>
+		 加载中...	
+	</view>
+</view>

@@ -1,0 +1,24 @@
+.goodsItem{
+  width: 200rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20rpx;
+}
+.goodsItem .price{
+  color: #327442;
+  padding-bottom: 10rpx;
+  text-align: center;
+}
+.goodsItem text{
+  width: 100%;
+  font-size: 24rpx;
+  margin-top: 5rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.goodsItem image{
+  width: 200rpx;
+  height: 220rpx;
+}

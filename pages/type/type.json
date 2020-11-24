@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "typeLeftNav":"../../components/typeleftnav/typeLeftNav"
+  },
+  "enablePullDownRefresh":false
+}

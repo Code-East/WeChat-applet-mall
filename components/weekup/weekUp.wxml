@@ -1,0 +1,18 @@
+<view class="weekup">
+	<view class="content">
+		<view class="title">
+			『 每 周 上 新 』
+		</view>
+		<view class="line">
+			<text>BUY</text>
+			<text>查看更多</text>
+		</view>
+		<view class="goods-list">
+			<scroll-view class="scroll" scroll-x enable-flex="true">
+				<block wx:for="{{weekData}}" wx:key="index">
+						<weekupitem itemdata="{{item}}"/>
+				</block>
+			</scroll-view>
+		</view>
+	</view>
+</view>

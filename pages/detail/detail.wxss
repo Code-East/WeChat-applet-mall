@@ -1,0 +1,113 @@
+#detail{
+  position: relative;
+}
+#detail scroll-view{
+  width: 100%;
+  height:1300rpx;
+}
+#detail .detail-swiper swiper{
+  width: 100%;
+  height: 700rpx;
+}
+#detail .detail-swiper swiper image{
+  width: 100%;
+  height: 700rpx;
+}
+#detail .goods-content{
+  width: 100%;
+  padding: 30rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+#detail .goods-content .title{
+  font-size:34rpx
+}
+#detail .goods-content .tag-list{
+  margin-top: 5rpx;
+}
+#detail .goods-content .tag-list text{
+  background-color: #dcebe6;
+  font-size: 23rpx;
+  padding: 5rpx;
+  margin-right: 8rpx;
+  color: #167758;
+}
+#detail .goods-content .price{
+  margin-top: 30rpx;
+  color: #167758;
+  font-size: 30rpx;
+}
+#detail .table{
+  width: 100%;
+  padding: 30rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin-top: 10rpx;
+}
+#detail .table ul{
+  border: 1px #dcebe6 dashed;
+  padding: 10rpx 20rpx;
+  font-size:24rpx;
+  display:flex;
+  flex-direction: column;
+}
+#detail .table ul li{
+  display: block;
+  padding: 5rpx 20rpx;
+  border-bottom: 1px #dcebe6 dashed;
+  color: #333333;
+}
+#detail .buy-bar{
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 120rpx;
+  background-color: #fff;
+}
+#detail .buy-bar .buy-box{
+  height: 100%;
+  display: flex;
+}
+#detail .buy-bar .buy-box .icon-box{
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 2;
+}
+#detail .buy-bar .buy-box .icon{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#detail .buy-bar .buy-box .icon image{
+  width: 50rpx;
+  height: 50rpx;
+}
+#detail .buy-bar .buy-box .icon text{
+  color: #999999;
+  font-size: 24rpx;
+  text-align: center;
+  margin-top: 10rpx;
+}
+#detail .buy-bar .buy-box .pay-or-cart{
+  display: flex;
+  flex: 4;
+}
+#detail .buy-bar .buy-box .pay-or-cart .addcart,.buy{
+  text-align: center;
+  background-color: #333333;
+  color: #fff;
+  font-size: 35rpx;
+  line-height: 120rpx;
+  flex: 1;
+}
+#detail .buy-bar .buy-box .pay-or-cart .buy{
+  background-color: #167758;
+}
+#detail .none{
+  width: 100%;
+  text-align: center;
+}

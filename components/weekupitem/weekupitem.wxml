@@ -1,0 +1,5 @@
+<view class="goodsItem" bindtap="weekGoodsTap">
+  <image src="{{itemdata.show.img}}" lazy-load="true"></image>
+  <text>{{itemdata.title}}}</text>
+  <text class="price">￥{{itemdata.price}}</text>
+</view>

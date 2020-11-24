@@ -1,0 +1,10 @@
+<view id="hometype">
+  <view class="goods-list">
+    <block wx:for="{{typeDataList}}" wx:key="index">
+      <homeGoodsItem goodsitem="{{item}}"/>
+    </block>
+  </view>
+  <view class="buttom">
+    没有更多内容咯...
+  </view>
+</view>

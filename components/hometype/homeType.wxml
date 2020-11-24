@@ -1,0 +1,29 @@
+<!--components/hometype/homeType.wxml-->
+<view class="home-type">
+  <view class="ul">
+      <view class="li" data-typeId="50003" bindtap="typeClick">
+          <image src="../../images/home/fuzhang.png" class="img"></image>
+          <text>衣服</text>
+      </view>
+      <view class="li" data-typeId="50675" bindtap="typeClick">
+          <image src="../../images/home/baobao.png"></image>
+          <text>包包</text>
+      </view>
+      <view class="li" data-typeId="10056587" bindtap="typeClick">
+          <image src="../../images/home/xiezhi.png"></image>
+          <text>鞋子</text>
+      </view>
+      <view class="li" data-typeId="50797" bindtap="typeClick">
+          <image src="../../images/home/jiezhi.png"></image>
+          <text>饰品</text>
+      </view>
+      <view class="li" data-typeId="10057031" bindtap="typeClick">
+          <image src="../../images/home/sofa.png"></image>
+          <text>家居</text>
+      </view>
+      <view class="li" data-typeId="10060232" bindtap="typeClick">
+          <image src="../../images/home/gonyi.png"></image>
+          <text>工艺</text>
+      </view>
+  </view>  
+</view>

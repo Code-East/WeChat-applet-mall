@@ -1,0 +1,62 @@
+<view id="detail">
+  <view class="main" wx:if="{{isData}}">
+    <scroll-view scroll-y>
+      <view class="detail-swiper">
+        <swiper autoplay="true" circular="true" indicator-dots="true" indicator-color="#bfbfbf"
+          indicator-active-color="black" class="swiper">
+          <block wx:for="{{topImage}}" wx:key="index">
+            <swiper-item>
+              <image src="{{item}}"></image>
+            </swiper-item>
+          </block>
+        </swiper>
+      </view>
+      <view class="goods-content">
+        <view class="contnet">
+          <view class="title">{{title}}</view>
+          <view class="tag-list">
+            <block wx:for="{{tagList}}" wx:key="idnex">
+              <text>{{item.name}}</text>
+            </block>
+          </view>
+          <view class="price">￥{{price}}</view>
+        </view>
+      </view>
+      <view class="table">
+        <ul>
+          <li>演示:本商品为演示数据，不可支付</li>
+          <li>特点:你可以登入进行加入购物车</li>
+          <li>发货地:江西</li>
+          <li>物流:顺丰</li>
+          <li>发货时间:七个工作日</li>
+          <li>售后:不支持其七天无理由退货</li>
+        </ul>
+      </view>
+    </scroll-view>
+   <view class="buy-bar">
+      <view class="buy-box">
+        <view class="icon-box">
+          <view  class="icon" bindtap="toHomeClick">
+            <image src="../../images/tarbar/home1.png"></image>
+            <text>首页</text>
+          </view>
+          <view  class="icon" bindtap="toCartClick">
+            <image src="../../images/tarbar/cart1.png"></image>
+            <text>购物车</text>
+          </view>
+        </view>
+        <view class="pay-or-cart">
+          <view class="addcart" bindtap="addCartClick">
+            加入购物车
+          </view>
+          <view class="buy" bindtap="buyClick">
+            立即购买
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="none" wx:if="{{!isData}}">
+    啊!数据丢失了,看看别的吧
+  </view>
+</view>

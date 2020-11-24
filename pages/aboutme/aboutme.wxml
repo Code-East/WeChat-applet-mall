@@ -1,0 +1,16 @@
+<view class="aboutme">
+  <view class="content">
+    <view>“</view>
+    <view>作者:East</view>
+    <view>设计：风袖小程序</view>
+    <view>致谢：code-why老师提供接口</view>
+    <view> ”</view>
+    <view>“</view>
+    <view>本人之前写过，移动web端商城，发现小程序会更好的实现这类功能，于是决定写一份小程序，也算是复习小程序的开发，希望自己能越来越熟练的掌握前端技术，继续不断的努力</view>
+    <view> ”</view>
+    <view class="img">
+      <image src="https://lxd2020-1304266146.cos.ap-guangzhou.myqcloud.com/image/mmqrcode1605780108947.png"></image>
+      <view>扫一扫加微信</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+{
+  "usingComponents": { 
+    "homeType":"../../components/hometype/homeType",
+    "weekUp":"../../components/weekup/weekUp",
+    "homeGoodsItem":"../../components/homegoodsitem/homeGoodsItem"
+  },
+  "window": {
+    "onReachBottomDistance":50,
+    "enablePullDownRefresh":true
+  }
+}

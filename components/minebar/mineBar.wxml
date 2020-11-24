@@ -1,0 +1,13 @@
+<view class="mine-bar">
+  <view class="content">
+    <view class="ding">我的订单</view>
+    <view class="icon-list">
+      <block wx:for="{{itemData}}" wx:key="index"> 
+        <view class="icon-item" bindtap="dinClick">
+        <image src="{{item.img}}"></image>
+        <text>{{item.name}}</text>
+      </view>
+      </block>
+    </view>
+  </view>
+</view>

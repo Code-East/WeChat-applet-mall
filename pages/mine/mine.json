@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "mine-bar":"../../components/minebar/mineBar"
+  },
+  "enablePullDownRefresh":false
+}

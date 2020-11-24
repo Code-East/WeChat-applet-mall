@@ -1,0 +1,21 @@
+<view id="type">
+  <view class="search">
+    <input type="text" placeholder="搜索商品" />
+  </view>
+  <view class="main-content">
+    <view class="type-left-nav">
+      <typeLeftNav bindtypeClick="typeItemClick"/>
+    </view>
+    <scroll-view scroll-y="true" class="scroll">
+      <view class="alltype">-全部分类-</view>
+      <view class="type-right-view">
+        <block wx:for="{{typeData}}" wx:key="index">
+          <view class="type-list-item" bindtap="typeClick">
+            <image src="{{item.image}}"></image>
+            <text>{{item.title}}</text>
+          </view>
+        </block>
+      </view>
+    </scroll-view>
+  </view>
+</view>

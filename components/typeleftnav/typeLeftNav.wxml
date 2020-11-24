@@ -1,0 +1,5 @@
+<view class="type-bar">
+  <block wx:for="{{typeList}}" wx:key="index">
+    <text data-index="{{index}}" bindtap="itemClick" class="type-item {{index== currentIndex ? 'action' : ''}}">{{item.name}}</text>
+  </block>
+</view>

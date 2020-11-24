@@ -1,0 +1,23 @@
+.type-bar{
+  display: flex;
+  flex-direction: column;
+  width: 165rpx;
+  height: 100%;
+  border-top: 1rpx #cccccc solid;
+  border-right: 1rpx #cccccc solid;
+  background-color: #fff;
+}
+.type-bar .type-item{
+  display: block;
+  width: 100%;
+  margin-bottom: 20rpx;
+  padding: 10rpx 0;
+  font-size: 30rpx;
+  text-align: center;
+  border-left: 5rpx solid transparent;
+  margin-top: 20rpx;
+}
+.action{
+  border-left: 5rpx solid #327442 !important;
+  color: #327442;
+}

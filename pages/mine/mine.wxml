@@ -1,0 +1,35 @@
+<view id="mine">
+  <view class="mine-content">
+    <!--   -->
+    <view class="header-box">
+      <view class="header" style=" background:url('{{headerImg}}')"></view>
+      <view class="user-header">
+        <image src="{{headerImg}}" class="image"></image>
+        <view class="name" wx:if="{{islogin}}">{{name}}</view>
+      <!-- bindgetuserinfo="getUser" -->
+      <button class="btn" wx:else="{{!islogin}}" open-type="getUserInfo" bindgetuserinfo="getUser">登入</button>
+      </view>
+      
+    </view>
+
+    <mine-bar />
+    <view class="address">
+      <view class="content" bindtap="getAddress">
+        <view>
+          <image src="../../images/mine/address.svg"></image>
+          <text>收货地址</text>
+        </view>
+        <image src="../../images/mine/right.svg"></image>
+      </view>
+    </view>
+    <view class="address" bindtap="aboutMe">
+      <view class="content">
+        <view>
+          <image src="../../images/mine/mine.svg"></image>
+          <text>关于我</text>
+        </view>
+        <image src="../../images/mine/right.svg"></image>
+      </view>
+    </view>
+  </view>
+</view>
